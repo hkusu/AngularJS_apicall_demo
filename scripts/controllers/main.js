@@ -19,8 +19,4 @@ angular.module('testApp')
             });
         };
 
-        $scope.hello = {
-            text : "Hello"
-        };
-
     }]);
