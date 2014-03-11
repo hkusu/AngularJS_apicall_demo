@@ -1,0 +1,12 @@
+<div class="container" ng-controller="MainCtrl">
+
+    <button class="btn btn-primary" ng-click="doSearch()">API発行</button>
+    <br>
+    <br>
+    <table class="table">
+        <tr ng-repeat="result in results">
+            <td>{{result.id}}</td>
+            <td>{{result.name}}</td>
+        </tr>
+    </table>
+</div>
